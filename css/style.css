@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,regular,500,700,900&display=swap&subset=cyrillic-ext");
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.block,
+.block-fon,
+.block-image,
+.block-image-repeat,
+.block-image-fon,
+.block-dublleimage-fon,
+.block-threeimage,
+.list {
+	max-width: 25%;
+	min-width: 25%;
+	padding: 20px;
+	margin: 50px 25px;
+	display: inline-block;
+	border-radius: 30px;
+}
+.block {
+	text-shadow: 2px 4px 2px #e41111;
+	background: linear-gradient(to right, rgba(169,3,41,1) 0%,rgba(154,219,4,1) 43%,rgba(109,0,25,1) 100%);
+}
+.block-fon {
+	font-style: italic;
+	background-color: #e41111;
+
+
+}
+.block-image {
+	opacity: 0.5;
+	background: url("../img/2799206_growing.png") 0 0/100% auto;
+	border: 2px solid #131212;
+}
+.block-image-repeat {
+	color: #4dac21;
+	font-weight: 900;
+	background: url("../img/2799206_growing.png") 0 0/30px 30px repeat;
+	
+}
+.block-image-fon {
+	font-size: 20px;
+	background: #837d7dbf url("../img/2799206_growing.png") 30px 50%/30px 30px no-repeat;
+	
+}
+.block-dublleimage-fon {
+	font-weight: 900;
+	background:  url("../img/2992432_can_gard.png") 100px 40px/90px 90px no-repeat, url("../img/2799206_growing.png") 60px 50px/90px 90px no-repeat #d7da40;
+}
+
+.block-threeimage {
+	text-decoration: overline;
+	border: 2px solid #d7da40;
+	background: url("../img/6971336_corruption_corrupt_money_icon.png") 0 0/100% 100%, url("../img/2799206_growing.png") bottom left/90px 90px no-repeat, url("../img/2992432_can_gard.png") bottom right/90px 90px no-repeat #4dac21;
+}
+.list {
+	border: 3px dashed #4dac21;
+	background: #b38989;
+}
+.list ul li {
+	text-decoration: overline;
+	padding: 5px 0px;
+	margin: 0px 0px 20px 20px;
+	font-size: 16px;
+	min-height: 30px;
+	background: url("../img/2799206_growing.png") 100% 0 /20px 20px no-repeat;
+	
+}
+
+.contact {
+	max-width: 450px;
+    font-family: "Roboto",sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+	margin: 50px 150px;
+	padding: 30px;
+	border: 2px solid #131212;
+}
+.contact  ul li {
+	padding: 10px 20px 10px 0px;
+}
+.map {
+	background: url("../img/place_24px.png") right 50% /16px 16px no-repeat;
+}
+.smartphone {
+	background: url("../img/smartphone_24px.png") right 50% /16px 16px no-repeat;
+}
+.email {
+	background: url("../img/email_24px.png") right 50% /16px 16px no-repeat;
+}
+.timer {
+	background: url("../img/timer_24px.png") right 50% /16px 16px no-repeat;
+}
+.bgimage {
+	max-width: 1316px;
+	padding: 130px 680px 200px 85px;
+	margin: 25px auto;
+	background: url("../img/BG\ Image.png") 50%;
+}
+.bgimage h1 {
+	margin: 0px 0px 48px 0px;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 56px;
+	line-height: 56px;
+	color: #fff;
+}
+.redbutton {
+	max-width: 212px;
+	padding: 12px 0px 8px 30px;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 24px;
+	color: #ffffff;
+	background: url("../img/Button\ Treatment\ 48px.png") right 0/auto no-repeat #c40b0b;
+}
+.impact {
+	max-width: 1440px;
+	padding: 100px 20px 135px 208px;
+	margin: 350px auto;
+	background: url("../img/overlay\ image.png") 0 0/auto no-repeat #02133C;
+}
+.impact-img {
+	max-width: 518px;
+	overflow: hidden;
+	padding: 10px 10px 10px 10px;
+	margin: -410px 0px 0px 550px;
+}
+.impact-mark {
+	max-width: 300px;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 24px;
+	color: #d5d5d5;
+	background: url("../img/Overline\ Mark.png") left 0 /auto no-repeat;
+	padding: 2px 0px 0px 36px;
+	margin: 0px 0px 30px 0px;;
+}
+.impact-title {
+	max-width: 410px;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #ffffff;
+	margin: 0px 0px 76px 0px;
+}
+.icons {
+	margin: 150px 0px 50px 0px;
+	
+}
+
+.oil {
+	display: inline-block;
+	max-width: 237px;
+	background: url("../img/car_oil-24x.png") left 0/auto no-repeat;
+	padding: 15px 0px 0px 75px;
+	margin: 0px 100px 0px 0px;
+}
+.transmission {
+	display: inline-block;
+	max-width: 200px;
+	max-height: 90px;
+	background: url("../img/car_transmission_24x.png") left 10px/auto no-repeat;
+	padding: 0px 0px 0px 75px;
+	margin: 0px 100px 0px 0px;
+	
+}
+
+.alignment {
+	display: inline-block;
+	max-width: 237px;
+	background: url("../img/car_alignment_24x.png") left 0/auto no-repeat;
+	padding: 15px 0px 0px 75px;
+	margin: 0px 100px 0px 0px;
+}
+.engine {
+	display: inline-block;
+	max-width: 237px;
+	background: url("../img/car_engine_2_24x.png") left 0/auto no-repeat;
+	padding: 15px 0px 0px 75px;
+}
+
+.oil h2,
+.transmission h2,
+.alignment h2,
+.engine h2 {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #c40b0b;
+	text-transform: capitalize;
+
+}
+.oil p,
+.transmission p,
+.alignment p,
+.engine p {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #f5f5f5;
+}
+
+
+
+
+
+
+
+
+
+
+
